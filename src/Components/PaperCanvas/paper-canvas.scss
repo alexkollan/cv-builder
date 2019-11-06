@@ -1,0 +1,13 @@
+@import '../../Global\ Styles/variables.scss';
+
+$paper-width: 60%;
+$paper-height: calc(#{$paper-width} * 1.414);
+
+.paper-canvas{
+    min-width: $paper-width;
+    min-height: $paper-height;
+    background-color: white;
+    flex-grow: 0;
+    box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.75);
+}
+

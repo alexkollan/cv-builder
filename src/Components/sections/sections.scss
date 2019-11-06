@@ -1,0 +1,23 @@
+@import '../../Global\ Styles/variables.scss';
+
+.left-section{
+    height: 100%;
+    flex-grow: 1;
+    width: 50%;
+    background-color: $black;
+    box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.75);
+}
+
+.right-section{
+    height: 100%;
+    flex-grow: 1;
+    width: 50%;
+    background-color: $bez;
+    border: 1 px solid black;
+    box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
